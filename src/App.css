@@ -26,6 +26,7 @@ svg {
 .infoText {
   position: absolute;
   max-width: 40%;
+  display: none;
 }
 
 #infoTextBox {
@@ -33,7 +34,7 @@ svg {
   flex-direction: row;
   flex-basis: 50%;
   height: 50%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   border-left: 2px solid white;
   border-top: 2px solid white;
@@ -44,7 +45,7 @@ svg {
   height: 50%;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
@@ -53,6 +54,7 @@ svg {
 
 h1 {
   margin: 0px;
+  align-self: flex-end;
 }
 
 li {
@@ -62,12 +64,15 @@ li {
 .headerBar {
   display: flex;
   max-height: 10%;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .headerLinks {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
 }
 
 svg {

@@ -11,9 +11,6 @@ export default function Infobox() {
     {
       text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ex veniam ipsa fugit assumenda iure recusandae odit perferendis, ad laboriosam corporis accusantium hic! Officia omnis iste facere officiis, animi consequatur!",
     },
-    {
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum qui optio iste, fugit tempora nesciunt atque facilis voluptatem ipsam ex. Dolores perspiciatis repudiandae quo iste, libero temporibus impedit cum ea.",
-    },
   ];
 
   return (
